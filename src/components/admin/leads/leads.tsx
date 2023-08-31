@@ -1,11 +1,13 @@
 "use client";
-
+import {useSelector} from "react-redux"
 import { useState } from "react";
 import LeadForm from "./LeadForm";
 
 function Lead() {
   const [show, setShow] = useState<any>(null);
   const [showModal, setShowModal] = useState<boolean>(false);
+  const lead = useSelector((state) => state);
+  console.log("🚀 ~ file: leads.tsx:10 ~ Lead ~ lead:", lead)
 
   return (
     <>
