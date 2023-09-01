@@ -19,10 +19,10 @@ export default function RootLayout({
           // id="Main"
           className="transform hidden showNav overflow-y-auto xl:translate-x-0 ease-in-out transition duration-500 lg:flex justify-start items-start h-screen w-full sm:w-80 bg-gray-900 flex-col"
         >
-          <div className="hidden lg:flex justify-start p-6 items-center gap-x-3">
+          {/* <div className="hidden lg:flex justify-start p-6 items-center gap-x-3">
             <img src="/logo.png" alt="" className="w-9 h-12" />
             <p className="text-2xl leading-6 text-white">Bawdicsoft</p>
-          </div>
+          </div> */}
           <div className="mt-6 flex flex-col justify-start items-center  pl-4 w-full border-gray-600 border-b space-y-3 pb-5 ">
             <Link
               href="/admin-dashboard"
